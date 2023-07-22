@@ -3,12 +3,13 @@
 padding: 0;
 }
 
+
 body{
     background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+ 
 
- img{ width: 320px ;
+img{ width: 320px ;
     height: 320px;
    
  }
@@ -32,7 +33,7 @@ li{
     list-style: none;
 }
 
-a{
+a {
     background-image:linear-gradient(#8c52ff, #5ce1e6);
     color: black;
     padding: 15px;
@@ -53,7 +54,9 @@ footer{
 .container{
     width: 320px;
     text-align: center;;
-    margin-top: 41px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    animation:5s;
 }
